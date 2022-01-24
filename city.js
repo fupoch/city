@@ -79,21 +79,21 @@ setInterval(function() {
 
 
 
-function setColor(element) {
-    const color = '#FFFFFF'
-    element.style.backgroundColor = color
-    element.style.boxShadow = `0 0 20px ${color}, 0 0 20px ${color}`
-}
+// function setColor(element) {
+//     const color = '#FFFFFF'
+//     element.style.backgroundColor = color
+//     element.style.boxShadow = `0 0 20px ${color}, 0 0 20px ${color}`
+// }
 
-function removeColor(element) {
-    element.style.boxShadow = `0 0 0px #000`
-}
+// function removeColor(element) {
+//     element.style.boxShadow = `0 0 0px #000`
+// }
 
-const slides = document.querySelectorAll('.slide')
+// const slides = document.querySelectorAll('.slide')
 
-for (const slide of slides) {
-slide.classList.add('slide')
-slide.addEventListener('mouseover', () => setColor(slide))
+// for (const slide of slides) {
+// slide.classList.add('slide')
+// slide.addEventListener('mouseover', () => setColor(slide))
 
-slide.addEventListener('mouseleave', () => removeColor(slide))
-}
+// slide.addEventListener('mouseleave', () => removeColor(slide))
+// }
